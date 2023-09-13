@@ -305,6 +305,7 @@ footer {
     }
     .burger-img {
         width: 30px;
+        
     }
 }
 @media screen and (max-width: 350px) {
