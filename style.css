@@ -293,7 +293,7 @@ footer {
         padding-left: 170px;
     }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 920px) {
     .container{
         margin: 0 10px;
     }
