@@ -293,7 +293,7 @@ footer {
         padding-left: 170px;
     }
 }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 620px) {
     .container{
         margin: 0 10px;
     }
@@ -305,7 +305,6 @@ footer {
     }
     .burger-img {
         width: 30px;
-        
     }
 }
 @media screen and (max-width: 350px) {
