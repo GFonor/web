@@ -297,11 +297,6 @@ footer {
     .container{
         margin: 0 10px;
     }
-}
-@media screen and (max-width: 350px) {
-    .main__content {
-        padding: 0;
-    }
     .nav-bar-item {
         display: none;
     }
@@ -310,6 +305,11 @@ footer {
     }
     .burger-img {
         width: 30px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .main__content {
+        padding: 0;
     }
 }
 @media screen and (max-width: 250px) {
