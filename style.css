@@ -95,6 +95,49 @@ legend {
 /*          STYLE RESET            */
 /* ############################### */
 
+.block {
+    display: block;
+}
+
+.log-in-form {
+    position: sticky;
+    left: 30px;
+    top: 100px;
+    background-color: #f0afaf;
+    width: 300px;
+    border: #f78484 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form-greeting {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.form-email {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.form-pswd {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.form-label {
+    margin-right: 5px;
+}
+.log-in-btn {
+    background-color: #fff;
+}
+.sign-up-btn {
+    background-color: #fff;
+}
+.close-btn {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-color: #fff;
+}
+
+
 .container {
     margin: 0 20%;
 }
@@ -261,9 +304,7 @@ legend {
 footer {
     margin-bottom: 50px;
 }
-.block {
-    display: block;
-}
+
 
 
 
