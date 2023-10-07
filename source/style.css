@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto&display=swap");
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+a:link, a:visited, a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+input:focus, input:active {
+  outline: none;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend, .block {
+  display: block;
+}
+
+/* ############################### */
+/*          STYLE RESET            */
+/* ############################### */
+.log-in-form {
+  position: fixed;
+  left: 30px;
+  top: 100px;
+  background-color: #f0afaf;
+  width: 300px;
+  border: #f78484 solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-greeting {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.form-email, .form-pswd {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  margin-right: 5px;
+}
+
+.log-in-btn, .sign-up-btn {
+  background-color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background-color: #fff;
+}
+
+.all-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 20%;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  flex-wrap: wrap;
+}
+
+.logo__text {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  color: grey;
+}
+
+.logo__text_bold {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-bar-item {
+  margin-right: 30px;
+  font-size: 13px;
+  opacity: 0.6;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.burger {
+  display: none !important;
+}
+
+.burger-slide {
+  display: none;
+}
+
+.main {
+  background: url("img/bg.jpg") no-repeat center top/cover;
+  height: 60vh;
+  min-height: 430px;
+  padding: 80px 20px;
+}
+
+.main__content {
+  padding-left: 30vw;
+}
+
+.main__content-naming {
+  margin-bottom: 20px;
+}
+.main__content-naming h3 {
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.main__content-naming h1 {
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.main__content-text {
+  font-size: 17px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1.5px black;
+}
+
+.purchase-btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 1.5px black;
+  background-color: #08cbff;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+.purchase-btn:hover {
+  background-color: slateblue;
+}
+
+.learn-btn {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 1.5px black;
+  background-color: #08cbff;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+.learn-btn:hover {
+  background-color: slateblue;
+}
+
+.about-us-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.about-us-line__item {
+  margin-right: 20px;
+  max-width: 150px;
+  transition: 0.28s;
+  padding: 10px 5px;
+}
+.about-us-line__item:hover {
+  background-color: rgba(51, 34, 136, 0.6);
+}
+
+.about-us-line__item_l {
+  margin-right: 0;
+}
+
+.item__img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.item__naming {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.item__text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.item__link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+.ads {
+  max-width: 250px;
+  background-color: #fbfbfb;
+  margin: 0 10px;
+  padding-top: 65px;
+}
+
+.ad {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.ad__img {
+  width: 50px;
+  margin: 0 auto 8px;
+}
+
+.ad__title {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    display: block;
+  }
+  .nav-bar-item {
+    display: inline;
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 1105px) {
+  .about-us-line {
+    display: block;
+  }
+  .about-us-line__item {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ads {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main__content {
+    padding-left: 170px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .container {
+    margin: 0 10px;
+  }
+  .nav-bar-item {
+    display: none;
+  }
+  .burger {
+    display: inline-block !important;
+  }
+  .burger-img {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main__content {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 250px) {
+  .main {
+    min-height: 560px;
+  }
+}/*# sourceMappingURL=style.css.map */
